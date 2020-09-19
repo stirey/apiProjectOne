@@ -1,0 +1,101 @@
+/* BACKGROUND STYLING */
+#banner {
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner2 {
+    margin: 0px;
+    padding: 0px;
+}
+.card-body {
+    background-color: black;   
+}
+
+/* FONT */
+
+h5.card-title {
+    color: white;
+    font-family: 'Heebo', sans-serif;
+   
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 250%;
+
+}
+/* get a free mask text */
+.card-title {
+    text-align: right;
+    font-family: 'Heebo', sans-serif;
+    font-size: 200%;
+    color: purple;
+
+}
+
+/* flexbox */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+}
+
+.flex-container {
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+.spaceBetween {
+    margin-left: 30px;
+    margin-right: 50px;
+    padding: 0px;
+    text-align: center; 
+}
+
+.spaceBetween {
+    transition-duration: 0.3;
+    cursor: pointer;
+    background-color: black;
+}
+
+.spaceBetween:hover {
+    background-color: purple;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Heebo', sans-serif;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
